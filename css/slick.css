@@ -1,0 +1,64 @@
+.your-class{
+    width:100%;
+    /* 고정값 */
+    position: relative;            
+    /* 배너, 버튼, 인디게이터 모든 요소들의 최상위 부모 */
+}
+.your-class .slick-list{  
+    /* 배너들의 상위요소 */
+    overflow:hidden;  
+}
+.your-class .slick-track{
+    /* 배너 그룹 및 translateX값으로 이동(스크립트) */
+}
+.your-class .slick-track::after{
+    content:'';
+    display:block;
+    clear: both;    
+}
+.your-class .slick-slide{
+    /* 개별 배너 */
+    margin:0; 
+    width:100%;
+    float:left;
+}
+.your-class .slick-slide  img{}
+
+
+
+/* dots */
+.your-class .slick-dots{
+    position: absolute;
+    bottom: 5%;
+    width: 56%;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    left: 22%;
+}
+.your-class .slick-dots li{
+    width: 15px; height: 5px;
+    /* padding: 8%; */
+    display: inline-block;
+    opacity: 0.65;
+}
+.your-class .slick-dots li button{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    margin: 0 20px;
+    padding: 30%;
+}
+.your-class .slick-dots li.slick-active button{
+    background-color:#373737;}
+.slick-prev{
+    display: none !important;
+}
+.slick-next{
+    display: none !important;
+}
+
+/* =========================================================================================================================================== */
+
