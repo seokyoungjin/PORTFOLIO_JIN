@@ -99,7 +99,7 @@ function workFn(v){
     $('.swiper-pagination li').on('click',pageMove);
     
     let slideText = [
-        {t:'Team <br>Profect', c:'#337885',d:'#99D2DD'},
+        {t:'Website <br>Profect', c:'#337885',d:'#99D2DD'},
         {t:'Website <br>Portfolio', c:'#5B5B5B',d:'#848493'},
         {t:'Website <br>Renewal', c:'#FEBD3D',d:'#FC8300'},
         {t:'Mobil App <br>Portfolio', c:'#D9D9D9',d:'#AEAEAE'}    
