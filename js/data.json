@@ -1,0 +1,35 @@
+{
+    "items":[
+        
+        {
+            "tittle": "TAZA",
+            "imgurl": "./img/portfolio/portfolio_01.png",
+            "siteview": "https://seokyoungjin.github.io/my_work/",
+            "Processview":"./img/portfolio/project_01.png",
+            "Project":"Team Portfolio",
+            "Date":"14day July 2022",
+            "paticipation":"Publishing 70%",
+            "Role":"Publishing 70%",
+            "Overview":"국토종주 자전거길의 개통함에 따라 사이클링에 관심이 있는 사람을 위한 웹사이트",
+            "color":"#337885",
+            "textcolor":"#99D2DD",
+            "h4":"#dddddd"
+        },
+        {
+            "tittle": "PORTFOLIO",
+            "imgurl": "./img/portfolio/portfolio_02.png",
+            "siteview":"https://seokyoungjin.github.io/myportfolio/",
+            "Processview":"./img/portfolio/project_02.png",
+            "Project":"Website Portfolio",
+            "Date":"14day August 2022",
+            "paticipation":"Design 100% Publishing 100%",
+            "Role":"Publishing 100% Design 100%",
+            "Overview":"웹 퍼블리셔가 되기 위해 작업을 했던 프로젝트의 과정들과 나에 대한 소개글을 담은 웹 페이지",
+            "color":"#5B5B5B",
+            "textcolor":"#848493",
+            "h4":"#dddddd"
+        }
+        
+    
+    ]
+}

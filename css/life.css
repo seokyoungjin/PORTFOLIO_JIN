@@ -1,0 +1,325 @@
+@import url(./common.css);
+.visual {
+  width: 100%;
+}
+.visual figure {
+  position: relative;
+}
+.visual figure img {
+  width: 100%;
+}
+.visual .p {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.visual .p img {
+  width: 100%;
+}
+.visual .background_gary {
+  background-color: #E6E6E6;
+  width: 100%;
+}
+.visual .background_gary .center {
+  width: 68.75%;
+  margin: 0 auto;
+}
+.visual span {
+  padding: 1%;
+}
+.visual span a {
+  font-size: 16px;
+  color: #373737;
+  font-weight: 500;
+}
+
+.section_01 {
+  padding: 120px 0 120px 0;
+  width: 100%;
+}
+.section_01 .text {
+  padding-bottom: 50px;
+  width: 68.75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section_01 .text h2 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #343434;
+}
+.section_01 .text figure {
+  padding: 20px 0 20px 0;
+}
+.section_01 .text p {
+  font-size: 19px;
+  color: #ADAEB0;
+  font-weight: 400;
+}
+.section_01 .contents_01 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-color: #F7F8FA;
+}
+.section_01 .contents_01 .life {
+  width: 68.75%;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  left: 280px;
+}
+.section_01 .contents_01 .life ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_01 .contents_01 .life li {
+  width: 30%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.section_01 .contents_01 .life li figure {
+  width: 100%;
+}
+.section_01 .contents_01 .life li figure img {
+  width: 100%;
+}
+.section_01 .contents_01 .life li p {
+  font-size: 20px;
+  color: #373737;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.section_02 {
+  padding: 120px 0 120px 0;
+  width: 100%;
+}
+.section_02 .text {
+  padding-bottom: 50px;
+  width: 68.75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section_02 .text h2 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #343434;
+}
+.section_02 .text figure {
+  padding: 20px 0 20px 0;
+}
+.section_02 .text p {
+  font-size: 19px;
+  color: #ADAEB0;
+  font-weight: 400;
+}
+.section_02 .contents_02 {
+  width: 100%;
+  position: relative;
+}
+.section_02 .contents_02 .text_02 {
+  width: 68.75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section_02 .contents_02 .text_02 p {
+  width: 850px;
+  margin: 0 auto;
+  font-size: 19px;
+  color: #373737;
+  font-weight: 400;
+}
+.section_02 .contents_02 .pictrue {
+  width: 100%;
+}
+.section_02 .contents_02 .pictrue figure {
+  width: 68.75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.section_02 .contents_02 .center {
+  width: 730px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section_02 .contents_02 .center .right_p .p1 {
+  padding-bottom: 30px;
+}
+
+article .scroll {
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(20%);
+}
+
+article .scroll.active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .visual {
+    width: 100%;
+  }
+  .visual figure {
+    position: relative;
+  }
+  .visual figure img {
+    width: 100%;
+  }
+  .visual .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .visual .p img {
+    width: 100%;
+  }
+  .visual .background_gary {
+    background-color: #E6E6E6;
+    width: 100%;
+  }
+  .visual .background_gary .center {
+    width: 68.75%;
+    margin: 0 auto;
+  }
+  .visual span {
+    padding: 1%;
+  }
+  .visual span a {
+    font-size: 16px;
+    color: #373737;
+    font-weight: 500;
+  }
+  .section_01 {
+    padding: 120px 0 120px 0;
+    width: 100%;
+  }
+  .section_01 .text {
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section_01 .text h2 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #343434;
+  }
+  .section_01 .text figure {
+    padding: 20px 0 20px 0;
+  }
+  .section_01 .text p {
+    font-size: 19px;
+    color: #ADAEB0;
+    font-weight: 400;
+  }
+  .section_01 .contents_01 {
+    width: 100%;
+    height: auto;
+    background-color: #F7F8FA;
+  }
+  .section_01 .contents_01 .life {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .section_01 .contents_01 .life ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section_01 .contents_01 .life li {
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .section_01 .contents_01 .life li figure {
+    width: 100%;
+  }
+  .section_01 .contents_01 .life li figure img {
+    width: 100%;
+  }
+  .section_01 .contents_01 .life li p {
+    font-size: 20px;
+    color: #373737;
+    font-weight: 400;
+    padding-top: 50px;
+    word-break: keep-all;
+    text-align: center;
+  }
+  .section_02 {
+    padding: 50px 0 120px 0;
+    width: 100%;
+  }
+  .section_02 .text {
+    padding-bottom: 50px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section_02 .text h2 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #343434;
+  }
+  .section_02 .text figure {
+    padding: 20px 0 20px 0;
+  }
+  .section_02 .text p {
+    font-size: 19px;
+    color: #ADAEB0;
+    font-weight: 400;
+  }
+  .section_02 .contents_02 {
+    width: 100%;
+    position: relative;
+  }
+  .section_02 .contents_02 .text_02 {
+    width: 68.75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .section_02 .contents_02 .text_02 p {
+    width: auto;
+    margin: 0 auto;
+    font-size: 19px;
+    color: #373737;
+    font-weight: 400;
+  }
+  .section_02 .contents_02 .pictrue {
+    width: 100%;
+  }
+  .section_02 .contents_02 .pictrue figure {
+    width: 68.75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .section_02 .contents_02 .center {
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section_02 .contents_02 .center .right_p .p1 {
+    padding-bottom: 30px;
+  }
+  article .scroll {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20%);
+  }
+  article .scroll.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}/*# sourceMappingURL=life.css.map */
