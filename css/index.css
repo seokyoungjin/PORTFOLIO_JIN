@@ -1,78 +1,34 @@
 @import url(./common.css);
-.swiper-button-next,
-.swiper-button-prev {
-  background-color: #2e2e2e;
-  width: 35px;
-  height: 100px;
-}
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  background: #000;
-}
-
-.swiper-button-prev {
-  left: 0;
-}
-
-.swiper-button-next {
-  right: 0;
-}
-
-.swiper-button-prev:after {
-  font-size: 20px;
-  color: #fff;
-  display: inline-block;
-}
-
-.swiper-button-next:after {
-  font-size: 20px;
-  color: #fff;
-  display: inline-block;
-}
-
-.swiper {
+main {
   width: 100%;
-  position: absolute !important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 100vh;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/index/me.jpg") center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
-.visual {
-  width: 100%;
-  position: relative;
+main h4 {
+  font-size: 3rem;
 }
-.visual figure img {
-  width: 100%;
-  height: 100vh;
+main h2 {
+  font-size: 3.5rem;
+  margin: 2rem 0;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
 }
-.visual p img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
+main p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
 }
-
-.text strong {
-  width: 100%;
-  font-weight: 700;
-  font-size: 60px;
-  color: #fff;
-  padding-bottom: 10px;
-  letter-spacing: -0.6px;
-}
-.text small {
-  font-size: 20px;
-  color: #ADAEB0;
-  font-weight: 400;
-}
-.text .btn {
+main .btn {
   display: flex;
   justify-content: center;
 }
-.text .btn .btn_ {
+main .btn .btn_ {
   background-color: transparent;
   border: 3px solid white;
   border-radius: 20px;
@@ -82,12 +38,51 @@
   font-weight: bold;
   cursor: pointer;
 }
-.text .btn_:nth-child(1) {
+main .btn_:nth-child(1) {
   margin-right: 2rem;
 }
-.text .btn_:hover {
-  background-color: black;
+main .btn_:hover {
+  background-color: white;
+  color: black;
+}
+main .mouse {
+  background-color: transparent;
+  border: none;
   color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: upDown 1s ease-in-out infinite;
+  cursor: pointer;
+}
+main h2 span::after {
+  content: "";
+  height: 40px;
+  width: 3px;
+  background-color: #fff;
+  display: inline-block;
+  animation: blink 0.7s ease-in-out infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes upDown {
+  0% {
+    bottom: 1rem;
+  }
+  50% {
+    bottom: 1.5rem;
+  }
+  100% {
+    bottom: 1rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -121,7 +116,7 @@
   }
   .text small {
     font-size: 20px;
-    color: #ADAEB0;
+    color: #fff;
     font-weight: 400;
     margin-left: 9%;
   }
