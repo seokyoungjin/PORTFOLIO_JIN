@@ -1,10 +1,12 @@
 @import url(./common.css);
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   background-color: #2e2e2e;
   width: 35px;
   height: 100px;
 }
-.swiper-button-next:hover, .swiper-button-prev:hover {
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
   background: #000;
 }
 
@@ -68,46 +70,24 @@
 }
 .text .btn {
   display: flex;
-  padding-top: 20px;
   justify-content: center;
 }
-.text .btn .btn_01 {
-  background: none;
-  border: 0;
-  border: 1px solid #fff;
-  border-width: 3px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #fff;
-  padding: 15px 38px 15px 38px;
-  margin-right: 20px;
+.text .btn .btn_ {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
 }
-.text .btn .btn_01:hover {
-  background-color: #fff;
-  color: #000;
-  font-weight: 700;
+.text .btn_:nth-child(1) {
+  margin-right: 2rem;
 }
-.text .btn .download_btn .btn_02 {
-  background: none;
-  border: 0;
-  border: 1px solid #fff;
-  border-width: 3px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #fff;
-  padding: 15px 38px 15px 38px;
-  margin-right: 20px;
-  cursor: pointer;
-}
-.text .btn .download_btn .btn_02:hover {
-  background-color: #fff;
-  color: #000;
-  font-weight: 700;
-}
-
-.swiper-pagination {
-  display: none;
+.text .btn_:hover {
+  background-color: black;
+  color: white;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -148,53 +128,6 @@
   .text .btn {
     width: 100%;
     margin: 0 auto;
-  }
-  .text .btn .btn_01 {
-    background: none;
-    border: 0;
-    border: 1px solid #fff;
-    border-width: 3px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    padding: 15px 38px 15px 38px;
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  .text .btn .btn_01:hover {
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-  }
-  .text .btn .download_btn .btn_02 {
-    background: none;
-    border: 0;
-    border: 1px solid #fff;
-    border-width: 3px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    padding: 15px 38px 15px 38px;
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  .text .btn .download_btn .btn_02:hover {
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-  }
-  .swiper {
-    height: 100vh;
-    width: 100%;
-    position: absolute !important;
-    top: 0%;
-    left: 0%;
-    transform: none;
-    text-align: center;
-  }
-  .swiper-slide {
-    display: flex;
-    align-items: center;
   }
 }
 @media (min-width: 360px) and (max-width: 740px) {
@@ -237,103 +170,5 @@
     display: block;
     width: 80%;
     margin: 0 auto;
-  }
-  .text .btn .hire_me a {
-    display: block;
-  }
-  .text .btn .hire_me .btn_01 {
-    width: 100%;
-    background: none;
-    border: 0;
-    border: 1px solid rgba(255, 255, 255, 0);
-    border-width: 3px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    padding: 15px 38px 15px 38px;
-    margin-right: 0;
-    margin-bottom: 20px;
-    background-color: #000;
-    cursor: pointer;
-  }
-  .text .btn .hire_me .btn_01:hover {
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-  }
-  .text .btn .download_btn a {
-    display: block;
-  }
-  .text .btn .download_btn .btn_02 {
-    width: 100%;
-    background: none;
-    border: 0;
-    border: 1px solid #fff;
-    border-width: 3px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #000;
-    padding: 15px 38px 15px 38px;
-    margin-right: 0;
-    cursor: pointer;
-    background-color: #fff;
-  }
-  .text .btn .download_btn .btn_02:hover {
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-  }
-  .swiper-button-next, .swiper-button-prev {
-    background-color: #2e2e2e;
-    width: 35px;
-    height: 100px;
-  }
-  .swiper-button-next:hover, .swiper-button-prev:hover {
-    background: #000;
-  }
-  .swiper-button-prev {
-    left: 0;
-    display: none;
-  }
-  .swiper-button-next {
-    right: 0;
-    display: none;
-  }
-  .swiper-button-prev:after {
-    font-size: 20px;
-    color: #fff;
-    display: inline-block;
-  }
-  .swiper-button-next:after {
-    font-size: 20px;
-    color: #fff;
-    display: inline-block;
-  }
-  .swiper-pagination {
-    display: block;
-  }
-  .swiper-pagination-bullet {
-    background-color: #ADAEB0 !important;
-  }
-  .swiper-pagination-bullet-active {
-    background-color: #cbced4 !important;
-  }
-  .swiper-pagination-horizontal {
-    bottom: 140px !important;
-    left: 0;
-    width: 100%;
-  }
-  .swiper {
-    height: 100vh;
-    width: 100%;
-    position: absolute !important;
-    top: 0%;
-    left: 0%;
-    transform: none;
-    text-align: center;
-  }
-  .swiper-slide {
-    display: flex;
-    align-items: center;
   }
 }/*# sourceMappingURL=index.css.map */
