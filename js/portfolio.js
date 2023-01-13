@@ -27,11 +27,7 @@ inittt()
 
 
 
-// $(document).mouseup(function (e){
-// 	if($(".background").has(e.target).length === 0){
-// 		$(".background").hide();
-// 	}
-// });
+
 
 
 
@@ -50,17 +46,14 @@ $.ajax({
                                     <button type="button" class="show"class="process_view" data-code="${k}"><a href="#">Process View</a></button>
                                                                                             
                                         <ul>
+ 
                                             <li>
-                                                <p class="text_01">Project</p>
-                                                <p class="text_02">"${v.Project}"</p>
+                                                <p class="text_01">PERIOD</p>
+                                                <p class="text_02">"${v.Period}"</p>
                                             </li>
                                             <li>
-                                                <p class="text_01">Date</p>
-                                                <p class="text_02">"${v.Date}"</p>
-                                            </li>
-                                            <li>
-                                                <p class="text_01">Paticipation</p>
-                                                <p class="text_02">"${v.Role}"</p>
+                                                <p class="text_01">CONTRIBUTION</p>
+                                                <p class="text_02">"${v.Language}"</p>
                                             </li>
                                         </ul>
                                 </div>
@@ -99,10 +92,9 @@ function workFn(v){
     $('.swiper-pagination li').on('click',pageMove);
     
     let slideText = [
-        {t:'Website <br>Profect', c:'#337885',d:'#99D2DD'},
-        {t:'Website <br>Portfolio', c:'#5B5B5B',d:'#848493'},
-        {t:'Website <br>Renewal', c:'#FEBD3D',d:'#FC8300'},
-        {t:'Mobil App <br>Portfolio', c:'#D9D9D9',d:'#AEAEAE'}    
+        {t:'Team <br>Profect', c:'#337885',d:'#99D2DD'},
+        {t:'Project <br>Portfolio', c:'#5B5B5B',d:'#848493'},
+        {t:'Project <br>Renewal', c:'#FEBD3D',d:'#FC8300'},
     ]
     // 폰트 #99D2DD #848493 #FC8300 #AEAEAE
     // 배경 #337885 #5B5B5B #FEBD3D #D9D9D9
@@ -136,7 +128,7 @@ function workFn(v){
                                 <p class="h3">Project</p>
                                 <p class="h4" style="color:${v[n].h4}">"${v[n].Project}"</p>
                                 <p class="h3">Role</p>
-                                <p class="h4" style="color:${v[n].h4}">"${v[n].Role}"</p>
+                                <p class="h4" style="color:${v[n].h4}">"${v[n].Contribution}"</p>
                                 <p class="h3">Overview</p>
                                 <p class="h4" style="color:${v[n].h4}">"${v[n].Overview}"</p>
                                 <button type="button"class="site_view"><a href="${v[n].siteview}" target="_blank">Site View</a></button>
