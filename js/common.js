@@ -1,3 +1,4 @@
+
 $('.header_blackground').load('inc.html .header_blackground');
 $('.header_blackground').load('inc.html .header_blackground header',navi);
 
