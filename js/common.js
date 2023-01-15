@@ -1,37 +1,35 @@
-
-$('.header_blackground').load('inc.html .header_blackground');
-$('.header_blackground').load('inc.html .header_blackground header',navi);
-
-$('.cover_menu').load('inc.html .cover_menu');
-$('.cover_menu').load('inc.html .cover_menu .menu');
+$('header').load('inc.html header');
 
 
-function navi(){
+const headerEl = document.querySelector("header");
+window.addEventListener('scroll', function(){
+    requestAnimationFrame(scrollCheck);
+});
+function scrollCheck(){
+    let browerScrollY = window.scrollY ? window.scrollY : window.pageYOffset;
+    if(browerScrollY > 0){
+    headerEl.classList.add("active");
+    }else{
+        headerEl.classList.remove("active");
+    }
+}
 
-    $('.cover_menu').hide();
-    
-    $('.menu_btn').on('click',function(){
-        
-        $('body').css({overflow:'hidden'})
-        $('.cover_menu').show().addClass('active');
-    
-        $('.closed_btn').on('click',function(){        
-            $('.cover_menu').removeClass('active');
-            $('body').css({overflow:'auto'})
-            setTimeout(function(){
-                $('.cover_menu').hide()
-            },500)
-        });
+/* 애니메이션 스크롤 이동 */
+const animationMove = function(selector){
+  // ① selector 매개변로 이동할 대상 요소 노드 가져오기
+    const targetEl = document.querySelector(selector);
+  // ② 현재 브라우저의 스크롤 정보(y 값)
+    const browserScrollY = window.pageYOffset;
+  // ③ 이동할 대상의 위치(y 값)
+    const targetScorllY = targetEl.getBoundingClientRect().top + browserScrollY;
+  // ④ 스크롤 이동
+    window.scrollTo({ top: targetScorllY, behavior: 'smooth' });
+};
+// 스크롤 이벤트 연결하기
+const scollMoveEl = document.querySelectorAll("[data-animation-scroll='true']"); 
+for(let i = 0; i < scollMoveEl.length; i++){
+    scollMoveEl[i].addEventListener('click', function(e){
+    const target = this.dataset.target;
+    animationMove(target);
     });
 }
-let scrollTop;
-$(window).on('scroll',function(){
-    
-    let scrollTop = $(this).scrollTop();
-    if(scrollTop > 20 ){
-        $('.header_blackground').css('background-color','rgba(0,0,0,0.7)');
-    }else{
-        $('.header_blackground').css('background-color','');
-    }
-
-});

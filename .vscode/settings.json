@@ -1,0 +1,17 @@
+{
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        },
+        // You can add more
+    ],
+    "liveServer.settings.port": 5501,
+    "liveSassCompile.settings.autoprefix": [
+    
+    
+    ]
+}
