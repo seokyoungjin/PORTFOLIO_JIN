@@ -34,114 +34,101 @@
 }
 
 .section_01 {
-  line-height: 1.3;
-  word-break: keep-all;
-  padding-top: 50px;
   width: 100%;
+  padding-top: 50px;
 }
-.section_01 .text {
-  padding-bottom: 50px;
+.section_01 .middle {
   width: 68.75%;
   margin: 0 auto;
+}
+.section_01 .middle .text {
   text-align: center;
+  padding-bottom: 50px;
 }
-.section_01 .text h2 {
-  font-size: 22px;
-  font-weight: 900;
-  color: #343434;
-}
-.section_01 .text figure {
+.section_01 .middle .text figure {
   padding: 20px 0 20px 0;
 }
-.section_01 .text p {
-  font-size: 19px;
-  color: #ADAEB0;
-  font-weight: 400;
-}
-.section_01 .contents_01 {
-  width: 68.75%;
-  margin: 0 auto;
+.section_01 .middle .contents_01 {
   display: flex;
   justify-content: space-between;
 }
-.section_01 .contents_01 .contents_left {
-  width: 51.52%;
-  padding-top: 8%;
+.section_01 .middle .contents_01 .contents_left {
+  width: 20%;
 }
-.section_01 .contents_01 .contents_left p {
-  font-size: 48px;
-  font-weight: 300;
-  letter-spacing: -2px;
-}
-.section_01 .contents_01 .contents_left p strong {
-  color: #FDB51A;
-  font-size: 55px;
-  font-weight: 700;
-}
-.section_01 .contents_01 .contents_left .small {
-  padding: 2% 0 10% 0;
-  font-size: 19px;
-  color: #373737;
-  font-weight: 300;
-  letter-spacing: 0.3px;
-  line-height: 1.8em;
-}
-.section_01 .contents_01 .contents_right {
-  width: 39.39%;
-  padding-top: 8%;
-}
-.section_01 .contents_01 .contents_right .inpart {
-  border: 1px solid rgb(223, 223, 223);
-  display: flex;
-  width: 520px;
-  height: 300px;
-  justify-content: space-evenly;
-  padding-top: 13%;
-  box-shadow: 15px 20px 10px 10px rgba(0, 0, 0, 0.25);
-}
-.section_01 .contents_01 .contents_right .inpart .metoo img {
+.section_01 .middle .contents_01 .contents_left .img img {
   width: 100%;
-  border-radius: 20%;
 }
-.section_01 .contents_01 .contents_right .inpart .text_all {
-  padding-top: 2%;
+.section_01 .middle .contents_01 .contents_left .img .tex {
+  padding-top: 1rem;
+  color: #797979;
 }
-.section_01 .contents_01 .contents_right .inpart .text_all .text_tittle {
-  font-size: 25px;
-  font-weight: 800;
+.section_01 .middle .contents_01 .contents_left .img .tex p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.section_01 .middle .contents_01 .contents_left .img .tex span {
+  font-size: 1rem;
+}
+.section_01 .middle .contents_01 .contents_right {
+  word-break: keep-all;
+  width: 70%;
+}
+.section_01 .middle .contents_01 .contents_right h3 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.section_01 .middle .contents_01 .contents_right h3 span {
+  font-size: 2rem;
+  color: black;
+  background: linear-gradient(to top, #FDB51A 20%, transparent 60%);
+}
+.section_01 .middle .contents_01 .contents_right p {
+  font-size: 1.5rem;
+  color: #525252;
+  font-weight: 400;
+}
+.section_01 .middle .contents_01 .contents_right small {
+  font-size: 1rem;
+  font-weight: 400;
   color: #000;
+  background: linear-gradient(to top, #FDB51A 20%, transparent 60%);
 }
-.section_01 .contents_01 .contents_right .inpart .text_all .text_01 {
-  font-size: 16px;
-  color: #1D1D1D;
-  font-weight: 300;
-  padding: 5px 0 5px 0;
+.section_01 .middle .contents_01 .contents_right .edu {
+  padding-top: 3.5rem;
 }
-.section_01 .contents_01 .contents_right .inpart .text_all .text_01 strong {
-  font-size: 30px;
-  color: #1D1D1D;
-  font-weight: 700;
-  padding-right: 20px;
-}
-.section_01 .contents_01 .contents_right .inpart .text_all .text_01 img {
-  padding-right: 20px;
-}
-.section_01 .contents_01 .contents_right .inpart .text_all .text_02 {
-  font-size: 16px;
-  color: #1D1D1D;
-  font-weight: 300;
-  padding-bottom: 10px;
-}
-.section_01 .contents_01 .contents_right .inpart .text_all .text_02 strong {
-  padding-right: 20px;
-}
-.section_01 .contents_01 .contents_right .inpart .text_all .text_03 {
-  font-size: 16px;
-  color: #1D1D1D;
+.section_01 .middle .contents_01 .contents_right .edu h3 {
+  font-size: 2rem;
+  color: #000;
   font-weight: 300;
 }
-.section_01 .contents_01 .contents_right .inpart .text_all .text_03 strong {
-  padding-right: 20px;
+.section_01 .middle .contents_01 .contents_right .edu .detail {
+  display: flex;
+  justify-content: space-between;
+}
+.section_01 .middle .contents_01 .contents_right .edu .detail .txt p {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+.section_01 .middle .contents_01 .contents_right .edu .detail .txt p span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #797979;
+  display: block;
+  margin-left: 1rem;
+}
+.section_01 .middle .contents_01 .contents_right .edu .detail .txt span {
+  padding-top: 2%;
+  font-weight: lighter;
+  color: #797979;
+  font-size: 1rem;
+}
+.section_01 .middle .contents_01 .contents_right .edu .detail .txt span b {
+  font-weight: lighter;
+  color: #797979;
+  font-size: 1rem;
 }
 
 .section_02 {
