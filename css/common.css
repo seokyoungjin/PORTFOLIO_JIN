@@ -44,6 +44,7 @@ a, a:link, a:visited {
 }
 
 * {
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -173,7 +174,7 @@ a, a:link, a:visited {
   border-bottom: 3px solid #FDB51A;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 736px) and (max-width: 1024px) {
   .header_blackground {
     width: 100%;
     position: fixed;
@@ -250,7 +251,7 @@ a, a:link, a:visited {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 40%;
+    width: 30%;
     border: 1px solid #000;
     background-color: #F0F7FD;
     border: none;
