@@ -352,7 +352,7 @@ main h2 span::after {
     }
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   main {
     width: 100%;
     height: 100vh;
