@@ -29,15 +29,15 @@
             "textcolor":"#848493",
             "h4":"#dddddd"
         },
-                {
+            {
             "tittle": "RENEWAL",
             "imgurl": "./img/portfolio/portfolio_03.png",
             "siteview":"https://seokyoungjin.github.io/TOUR_JIN/",
             "Processview":"./img/portfolio/project_03.png",
             "Project":"Website Portfolio",
-            "Date":"14day July 2022",
-            "paticipation":"Design 80% Publishing 80%",
-            "Role":"Publishing 100% Design 100%",
+            "Period":"04.15 2022 - 04.30 200",
+            "Contribution":"Design 100% Publishing 100%",
+            "Language":"HTML5, CSS3, SCSS, JavaScript, jQuery",
             "Overview":"첫번째 리뉴얼작업으로 동적사이트를 구현하기 위해 만든 웹 사이트입니다",
             "color":"#FEBD3D",
             "textcolor":"#FC8300",
