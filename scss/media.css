@@ -409,7 +409,7 @@
     background-color: #337885;
   }
   .warp .project .swiper_mySwiper .swiper-pagination .link {
-    padding-top: 10%;
+    padding-top: 5%;
   }
   .warp .project .swiper_mySwiper .swiper-pagination .link li {
     padding-bottom: 1rem;
@@ -427,7 +427,7 @@
     display: inline-block;
   }
   .warp .project .swiper_mySwiper .swiper-pagination strong {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: #99D2DD;
   }
   .warp .project .swiper_mySwiper .mySwiper {
@@ -680,6 +680,6 @@
     justify-content: center;
   }
   .warp .project {
-    padding-top: 50rem;
+    padding-top: 60rem;
   }
 }/*# sourceMappingURL=media.css.map */
