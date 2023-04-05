@@ -1,0 +1,685 @@
+@media (min-width: 1200px) and (max-width: 1619px) {
+  .warp .about .container {
+    width: 90vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  section {
+    padding: 5rem 0;
+  }
+  .warp main .container h4 {
+    font-size: 3.5rem;
+  }
+  .warp main .container h2 {
+    font-size: 3rem;
+  }
+  .warp main .container h2 span {
+    font-size: 3.25rem;
+  }
+  .warp main .container p {
+    font-size: 1.15rem;
+  }
+  .warp main .container .btn .btn_ {
+    margin-top: 2rem;
+    padding: 0.9rem;
+  }
+  .warp main .container .btn .btn_ a {
+    font-size: 0.9rem;
+  }
+  .warp .about .container .about-self {
+    display: block;
+  }
+  .warp .about .container .about-self .left {
+    width: 100%;
+  }
+  .warp .about .container .about-self .left img {
+    max-width: 50%;
+  }
+  .warp .about .container .about-self .left .txt h3 {
+    font-size: 1.5rem;
+  }
+  .warp .about .container .about-self .left .txt h4 {
+    font-size: 1.25rem;
+  }
+  .warp .about .container .about-self .left .txt span {
+    font-size: 1.15rem;
+  }
+  .warp .about .container .about-self .right {
+    padding-top: 20%;
+    width: 100%;
+    justify-content: center;
+  }
+  .warp .project {
+    height: 100vh;
+    padding-top: 30rem;
+    width: 100%;
+  }
+  .warp .project .title_p {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .warp .project .title_p h4 {
+    font-size: 3.25rem;
+    color: #969696;
+    font-weight: 500;
+  }
+  .warp .project .swiper_mySwiper {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-bottom: 120px;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination {
+    height: 100%;
+    text-align: center;
+    width: 40%;
+    background-color: #337885;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link {
+    padding-top: 40%;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li {
+    padding-bottom: 2rem;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li.active a {
+    color: #fff;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li a {
+    font-size: 2rem;
+    color: #373737;
+    font-weight: 500;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li a p {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-right: 20px;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination strong {
+    font-size: 3rem;
+    color: #99D2DD;
+    padding-bottom: 5rem;
+    width: 400px;
+  }
+  .warp .project .swiper_mySwiper .mySwiper {
+    overflow: hidden;
+    height: 100%;
+    width: 60%;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    background-color: #F7F8FA;
+    margin-top: 5%;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide figure img {
+    max-width: 100%;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add {
+    margin-left: 30%;
+    width: 810px;
+    display: block;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view {
+    background: none;
+    border: 0;
+    border: 2px solid #373737;
+    padding: 1%;
+    margin-right: 1%;
+    cursor: pointer;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view:hover {
+    background-color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view:hover a {
+    font-weight: 500;
+    color: #F7F8FA;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show {
+    background: none;
+    border: 0;
+    border: 2px solid #373737;
+    padding: 1%;
+    margin-right: 3%;
+    cursor: pointer;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show:hover {
+    background-color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show:hover a {
+    font-weight: 500;
+    color: #F7F8FA;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul {
+    padding-top: 2%;
+    display: block;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul li {
+    padding-right: 30px;
+    line-height: 1.5;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul li .text_01 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul li .text_02 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #373737;
+  }
+  .warp .project article .scroll {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20%);
+  }
+  .warp .project article .scroll.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .warp .project .swiper-pagination_right {
+    display: none !important;
+    position: absolute;
+    top: 40%;
+    right: 4%;
+  }
+  .warp .project .swiper-pagination-bullet {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #ADAEB0;
+    padding-bottom: 5%;
+    margin-bottom: 80%;
+    border-radius: 20px;
+  }
+  .warp .project .swiper-pagination-bullet-active {
+    background-color: #373737;
+    width: 15px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .warp .contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50%;
+  }
+  .warp .contact .con {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .warp .contact .con .title {
+    margin-bottom: 3rem;
+  }
+  .warp .contact .con .title h4 {
+    font-size: 3.25rem;
+    color: #969696;
+    font-weight: 500;
+  }
+  .warp .contact .con .contact-me {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .warp .contact .con .contact-me .contact-inner {
+    width: 30%;
+    padding: 1rem 1rem 1.5rem 1rem;
+    border: 1px solid #ccc;
+  }
+  .warp .contact .con .contact-me .contact-inner h3 {
+    font-size: 1.25rem;
+    color: #f89820;
+    padding-bottom: 5%;
+  }
+  .warp .contact .con .contact-me .contact-inner figure {
+    width: 100%;
+  }
+  .warp .contact .con .contact-me .contact-inner figure img {
+    max-width: 80%;
+  }
+  .warp .contact .con .contact-me .contact-inner p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 2%;
+  }
+  .warp .contact .con .contact-main {
+    text-align: center;
+    padding-top: 2%;
+  }
+  .warp .contact .con .contact-main h2 {
+    color: #f89820;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2%;
+  }
+  .warp .contact .con .contact-main h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .warp .contact .con .contact-main p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    padding: 1% 0;
+  }
+  .warp .contact .con .contact-main strong {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 767px) {
+  .warp .navbar {
+    padding: 1rem;
+  }
+  .warp .navbar .narbar_loggo a i {
+    font-size: 1rem;
+  }
+  .warp .navbar .navbar_menu {
+    align-items: center;
+  }
+  .warp .navbar .navbar_menu li {
+    padding: 0;
+  }
+  .warp .navbar .navbar_menu li button {
+    font-size: 1rem;
+  }
+  .warp main .container h4 {
+    font-size: 2.5rem;
+  }
+  .warp main .container h2 {
+    font-size: 1.75rem;
+  }
+  .warp main .container h2 span {
+    font-size: 2.5rem;
+    display: block;
+  }
+  .warp main .container p {
+    font-size: 1rem;
+  }
+  .warp main .container .btn .btn_ {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+  }
+  .warp main .container .btn .btn_ a {
+    font-size: 0.8rem;
+  }
+  .warp section {
+    padding: 3rem 0;
+  }
+  .warp .about .container {
+    width: 70vw;
+  }
+  .warp .about .container .title {
+    margin-bottom: 1.5rem;
+  }
+  .warp .about .container .title h4 {
+    font-size: 2rem;
+  }
+  .warp .about .container .about-self {
+    display: block;
+  }
+  .warp .about .container .about-self .left {
+    width: 100%;
+  }
+  .warp .about .container .about-self .left img {
+    max-width: 60%;
+  }
+  .warp .about .container .about-self .left .txt h3 {
+    font-size: 1.15rem;
+  }
+  .warp .about .container .about-self .left .txt h3 span {
+    font-size: 1.25rem;
+  }
+  .warp .about .container .about-self .left .txt h4 {
+    font-size: 1rem;
+  }
+  .warp .about .container .about-self .left .txt span {
+    font-size: 1rem;
+  }
+  .warp .about .container .about-self .right {
+    display: block;
+    padding-top: 20%;
+    width: 100%;
+    justify-content: center;
+  }
+  .warp .about .container .about-self .right .aboutme {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .warp .about .container .about-self .right .aboutme h3 i {
+    font-size: 1rem;
+  }
+  .warp .about .container .about-self .right .Education {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .warp .about .container .about-self .right .Education h3 i {
+    font-size: 1rem;
+  }
+  .warp .about .container .about-self .right .working {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .warp .about .container .about-self .right .working h3 i {
+    font-size: 1rem;
+  }
+  .warp .about .container .about-self .right .skill {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .warp .about .container .about-self .right .skill h3 i {
+    font-size: 1rem;
+  }
+  .warp .project {
+    height: 100vh;
+    padding-top: 45rem;
+    width: 100%;
+  }
+  .warp .project .title_p {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .warp .project .title_p h4 {
+    font-size: 2rem;
+    color: #969696;
+    font-weight: 500;
+  }
+  .warp .project .swiper_mySwiper {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    margin-bottom: 120px;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination {
+    height: 50%;
+    text-align: center;
+    width: 100%;
+    background-color: #337885;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link {
+    padding-top: 10%;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li {
+    padding-bottom: 1rem;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li.active a {
+    color: #fff;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li a {
+    font-size: 1.5rem;
+    color: #373737;
+    font-weight: 500;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination .link li a p {
+    font-size: 1rem;
+    display: inline-block;
+  }
+  .warp .project .swiper_mySwiper .swiper-pagination strong {
+    font-size: 2.5rem;
+    color: #99D2DD;
+  }
+  .warp .project .swiper_mySwiper .mySwiper {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    background-color: #F7F8FA;
+    margin-top: 5%;
+    padding: 0;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide figure img {
+    max-width: 100%;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add {
+    margin-left: 20%;
+    width: 810px;
+    display: block;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view {
+    background: none;
+    border: 0;
+    border: 2px solid #373737;
+    padding: 1%;
+    margin-right: 1%;
+    cursor: pointer;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view:hover {
+    background-color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view:hover a {
+    font-weight: 500;
+    color: #F7F8FA;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .site_view a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show {
+    display: none;
+    background: none;
+    border: 0;
+    border: 2px solid #373737;
+    padding: 1%;
+    margin-right: 3%;
+    cursor: pointer;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show:hover {
+    background-color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show:hover a {
+    font-weight: 500;
+    color: #F7F8FA;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add .show a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul {
+    padding-top: 2%;
+    display: block;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul li {
+    padding-right: 30px;
+    line-height: 1.5;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul li .text_01 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+  }
+  .warp .project .swiper_mySwiper .mySwiper .swiper-wrapper .swiper-slide .add ul li .text_02 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #373737;
+  }
+  .warp .project article .scroll {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20%);
+  }
+  .warp .project article .scroll.active {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .warp .project .swiper-pagination_right {
+    display: none !important;
+    position: absolute;
+    top: 40%;
+    right: 4%;
+  }
+  .warp .project .swiper-pagination-bullet {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #ADAEB0;
+    padding-bottom: 5%;
+    margin-bottom: 80%;
+    border-radius: 20px;
+  }
+  .warp .project .swiper-pagination-bullet-active {
+    background-color: #373737;
+    width: 15px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .warp .contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 230%;
+  }
+  .warp .contact .con {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .warp .contact .con .title {
+    margin-bottom: 3rem;
+  }
+  .warp .contact .con .title h4 {
+    font-size: 3.25rem;
+    color: #969696;
+    font-weight: 500;
+  }
+  .warp .contact .con .contact-me {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+  }
+  .warp .contact .con .contact-me .contact-inner {
+    width: 100%;
+    padding: 1rem 1rem 1.5rem 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 5%;
+  }
+  .warp .contact .con .contact-me .contact-inner h3 {
+    font-size: 1rem;
+    color: #f89820;
+    padding-bottom: 5%;
+  }
+  .warp .contact .con .contact-me .contact-inner figure {
+    width: 100%;
+  }
+  .warp .contact .con .contact-me .contact-inner figure img {
+    max-width: 80%;
+  }
+  .warp .contact .con .contact-me .contact-inner p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 2%;
+  }
+  .warp .contact .con .contact-main {
+    text-align: center;
+    padding-top: 2%;
+  }
+  .warp .contact .con .contact-main h2 {
+    color: #f89820;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 2%;
+  }
+  .warp .contact .con .contact-main h3 {
+    margin-top: 3%;
+    color: #000;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .warp .contact .con .contact-main p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    padding: 1% 0;
+  }
+  .warp .contact .con .contact-main strong {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+  }
+  .warp .contact .con .contact-main span {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .warp .navbar {
+    padding: 0.5rem;
+  }
+  .warp .navbar .narbar_loggo a i {
+    font-size: 0.8rem;
+  }
+  .warp .navbar .navbar_menu {
+    align-items: center;
+  }
+  .warp .navbar .navbar_menu li {
+    padding: 0;
+  }
+  .warp .navbar .navbar_menu li button {
+    font-size: 0.9rem;
+  }
+  .warp main .container h4 {
+    font-size: 2rem;
+  }
+  .warp main .container h2 {
+    font-size: 1.25rem;
+  }
+  .warp main .container h2 span {
+    font-size: 2rem;
+  }
+  .warp main .container p {
+    font-size: 0.8rem;
+  }
+  .warp main .container .btn .btn_ {
+    margin-top: 1.5rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .warp main .container .btn .btn_ a {
+    font-size: 0.5rem;
+  }
+  .warp .about .container {
+    width: 70vw;
+  }
+  .warp .about .container .title h4 {
+    font-size: 1.75rem;
+  }
+  .warp .about .container .about-self {
+    padding-top: 20%;
+    display: block;
+  }
+  .warp .about .container .about-self .left {
+    width: 100%;
+  }
+  .warp .about .container .about-self .left img {
+    max-width: 80%;
+  }
+  .warp .about .container .about-self .left .txt h3 {
+    font-size: 1.5rem;
+  }
+  .warp .about .container .about-self .left .txt h4 {
+    font-size: 1.25rem;
+  }
+  .warp .about .container .about-self .left .txt span {
+    font-size: 1.15rem;
+  }
+  .warp .about .container .about-self .right {
+    width: 100%;
+    justify-content: center;
+  }
+  .warp .project {
+    padding-top: 50rem;
+  }
+}/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_sgj</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c05e5a7cb3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c05e5a7cb3.js" crossorigin="anonymous"></script>
+    <script defer src="./js/index.js"></script>
+
+    <link rel="stylesheet" href="./scss/index.css">
+    <link rel="stylesheet" href="./scss/media.css">
+</head>
+
+<body>
+    <div class="warp">
+        <!-- HEADER 헤더 -->
+        <header class="navbar" id="navbar">
+            <div class="narbar_loggo">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+
+            <ul class="navbar_menu">
+                <li>
+                    <button data-animation-scroll="true" data-target="#main" class="active">
+                        INTRO
+                    </button>
+                </li>
+                <li>
+                    <button data-animation-scroll="true" data-target="#about">
+                        ABOUT
+                    </button>
+                </li>
+                <li>
+                    <button data-animation-scroll="true" data-target="#project">
+                        PROJECT
+                    </button>
+                </li>
+                <li>
+                    <button data-animation-scroll="true" data-target="#contact">
+                        CONTACT
+                    </button>
+                </li>
+
+            </ul>
+
+        </header>
+
+        <main id="main">
+            <div class="container">
+                <h4>Welcome</h4>
+                <h2 class="active">I'm A <span></span></h2>
+                <p> 늘 발전하며
+                    새로운 것에 도전하고 배우며 꾸준히 성장하겠습니다.</p>
+                <div class="btn">
+                    <div class="btn_">
+                        <a href="./resource/경진포트폴리오.pdf" target="_blank">Open PDF</a>
+                    </div>
+                    <div class="btn_">
+                        <a href="./resource/이력서_경진.hwp.pdf" target="_blank">Open RESUME</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="title">
+                    <h4>Who Am I</h4>
+                </div>
+
+                <div class="about-self">
+                    <!-- 왼쪽 -->
+                    <div class="left">
+                        <img src="./resource/profile.png" alt="me">
+                        <div class="txt">
+                            <h3>"배움에 욕심이 있는 퍼블리셔 <span>서경진</span>입니다."</h3>
+                            <h4>늘 발전하며 현재에 만족하지 않고 꾸준히 배워나가겠습니다.</h4>
+                            <span>#퍼블리셔 #끈기 #코딩 #도전 #배움</span>
+                        </div>
+                    </div>
+
+                    <!-- 오른쪽 -->
+                    <div class="right">
+                        <div class="aboutme">
+                            <h3><i> It’s Me</i></h3>
+                            <p>서경진<br>1993.04.30<br>010-2065-9342<br>soccer910@naver.com</p>
+                        </div>
+                        <div class="Education">
+                            <h3><i>Education</i></h3>
+                            <p><b>2012.03~2016.02</b><br>백석예술대학교 관광경영학과 졸업<br>
+                                <b>2016.08~2020.12(4년 5개월)</b><br>영등포CGV 미소지기 근무<br>
+                                <b>2022.04~2022.08(5개월)</b><br>UI/UX Web Design & Web Publisher 교육이수
+                            </p>
+                        </div>
+                        <div class="working">
+                            <h3><i>Important</i></h3>
+                            <p> <span>일정관리</span>를 잘 소화할 수 있는 <span>꾸준함</span><br>
+                                프로젝트에 대한 <span>적극적인 태도와 도전정신</span><br>
+                                시멘틱 마크업 <span>크로스 브라우징과 반응형작업</span><br>
+                                팀원들과 <span>끊임없이 소통</span>하며 작업하기</p>
+                        </div>
+                        <div class="skill">
+                            <h3><i>Skill</i></h3>
+                            <div class="skillbar">
+                                <p>HTML5</p>
+                                <p></p>
+                                <p>90</p>
+                            </div>
+
+                            <div class="skillbar">
+                                <p>CSS3</p>
+                                <p></p>
+                                <p>90</p>
+                            </div>
+
+                            <div class="skillbar">
+                                <p>JS</p>
+                                <p></p>
+                                <p>60</p>
+                            </div>
+
+                            <div class="skillbar">
+                                <p>Figma</p>
+                                <p></p>
+                                <p>60</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="project">
+            <div class="title_p">
+                <h4>PROJECT</h4>
+            </div>
+
+            <div class="swiper_mySwiper">
+                <div class="swiper-pagination scroll">
+                    <ul class="link">
+                        <li class="active"><a href="#">
+                                <p>01.</p>TAZA
+                            </a></li>
+                        <li><a href="#">
+                                <p>02.</p>PORTFOLIO
+                            </a></li>
+                        <li><a href="#">
+                                <p>03.</p>한국관광공사
+                            </a></li>
+                    </ul>
+                    <strong>Team<br> Project</strong>
+                </div>
+                <div class="mySwiper scroll">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination_right"></div>
+    <!-- <button id="show">팝업열기</button> -->
+
+    <div class="background">
+        <div class="window">
+            <div class="popup">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="con">
+            <div class="title">
+                <h4>CONTACT</h4>
+            </div>
+    
+            <div class="contact-me">
+                <div class="contact-inner">
+                    <h3>성장</h3>
+                    <figure><img src="./resource/contact_02.png" alt="성장"></p></figure>
+                    <p>저는 지금 최고의 성능보다는 사용자의 작은 불편함과 문제를 해결하는
+                        신입 퍼블리셔입니다.끊임없는 도전정신과 꾸준함으로 성장할 것입니다
+                        새로운 일에 시도하고 변화를 주고 배움에 욕심을 갖고 성실히 맡은 일을
+                        임하는 팀원의 일원이 되겠습니다.
+                    </p>
+                </div>
+                <div class="contact-inner">
+                    <h3>가치</h3>
+                    <figure><img src="./resource/contact_01.png" alt="가치"></p></figure>
+                    <p>웹 페이지에서 가장 중요한 점은 편리성이라고 생각합니다
+                        유지보수를 위해 효율적으로 코딩하며 사용자가 이해하기 쉽게
+                        만들기 위해 노력했습니다.웹 접근성과 표준성을 준수하는 가치를
+                        기준으로 잡고 임하겠습니다.
+                    </p>
+    
+                </div>
+                <div class="contact-inner">
+                    <h3>목표</h3>
+                    <figure><img src="./resource/contact_03.png" alt="목표"></p></figure>
+                    <p>저의 목표는 자바스크립트와 크로스브라우징 작업을 자유롭게
+                        컨트롤 하는 것입니다.반응형 작업과 크로스 브라우징에 대한 프로젝트도
+                        여러 경험하며 성장할 것입니다.어제보다 내일이 더 기대되는 
+                        종합적인 능력을 갖춘 웹 퍼블리셔가 되겠습니다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-main">
+                <h2>"저의 포트폴리오를 봐주셔서 감사합니다!"</h2>
+                <h3>꾸준함과 끈기로 나아가는 웹 퍼블리셔 서경진입니다</h3>
+                <strong> 멈추지 않는 성실함과 도전정신으로 사용자의 가치있는 경험을 만들어 내고,
+                    꾸준히 성장해 나가는 팀의 일원이 되겠습니다.  </strong>
+                <p>Call. 010-2065-9342 <br>Eamil. soccer910@naver.com</p>
+                <span>Copyright 2023 Publisher .서경진. All rights reserved.본 사이트는 상업적 목적이 아닌 개인 포트폴리오로 제작되었습니다. </span>
+            </div>
+                
+        </div>
+    </section>
+
+
+    </div>
+
+</body>
+
+</html>
