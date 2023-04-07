@@ -103,6 +103,9 @@ body::-webkit-scrollbar {
   font-size: 1.65rem;
   color: #D0D0D0;
 }
+.warp .navbar .narbar_loggo i:hover {
+  color: #f89820;
+}
 .warp .navbar .navbar_menu {
   align-items: center;
   display: flex;
