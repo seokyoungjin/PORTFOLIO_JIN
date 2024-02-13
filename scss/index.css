@@ -282,9 +282,16 @@ body::-webkit-scrollbar {
 .warp .about .container .about-self .right .Education h3 i {
   font-size: 1.25rem;
 }
-.warp .about .container .about-self .right .Education p {
-  font-size: 1rem;
-  line-height: 30px;
+.warp .about .container .about-self .right .Education .edbox {
+  padding-top: 1rem;
+}
+.warp .about .container .about-self .right .Education .edbox p {
+  font: 0.5rem;
+}
+.warp .about .container .about-self .right .Education .edbox span {
+  color: #969696;
+  font: 0.8rem;
+  line-height: 2;
 }
 .warp .about .container .about-self .right .working {
   width: 40%;

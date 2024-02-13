@@ -275,11 +275,21 @@ body {}
                                 font-size: 1.25rem;
                             }
                         }
-
-                        p {
-                            font-size: 1rem;
-                            line-height: 30px;
+                        .edbox{
+                            padding-top: 1rem;
+                            p{
+                                font: 0.5rem;
+                            }
+                            span{
+                                color: #969696;
+                                font: 0.8rem;
+                                line-height: 2;
+                            }
                         }
+                        // p {
+                        //     font-size: 1rem;
+                        //     line-height: 30px;
+                        // }
                     }
 
                     .working {
