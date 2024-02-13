@@ -64,6 +64,9 @@ const animationMove = function(selector){
     });
   }
 
+
+
+
 //   function update(n){
 //     $('.navbar_menu li button').removeClass('active');
 //     $(`.navbar_menu li button:eq(${n})`).addClass('active');

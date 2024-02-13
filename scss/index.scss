@@ -110,67 +110,159 @@ body {}
         }
     }
 
+    // main {
+    //     width: 100%;
+    //     height: 100vh;
+    //     color: white;
+    //     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../resource/me.jpg') center center;
+    //     background-size: cover;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     text-align: center;
+
+    //     h4 {
+    //         font-size: 4rem;
+    //         font-weight: 300;
+    //     }
+
+    //     h2 {
+    //         font-size: 3.5rem;
+    //         margin: 1.5rem 0;
+    //         letter-spacing: 3px;
+    //         font-weight: 500;
+
+    //         span {
+    //             font-size: 3.75rem;
+    //             font-weight: 900;
+    //         }
+    //     }
+
+    //     p {
+    //         max-width: 600px;
+    //         margin: 0 auto;
+    //         font-size: 1.35rem;
+    //     }
+
+    //     .btn {
+    //         display: flex;
+    //         justify-content: center;
+
+    //         .btn_ {
+    //             background-color: transparent;
+    //             border: 3px solid white;
+    //             border-radius: 20px;
+    //             padding: 1rem;
+    //             margin-top: 2.5rem;
+    //             color: white;
+    //             font-weight: bold;
+    //             cursor: pointer;
+    //         }
+    //     }
+
+    //     .btn_:nth-child(1) {
+    //         margin-right: 2rem;
+    //     }
+
+    //     .btn_:hover {
+    //         background-color: white;
+    //         color: black;
+    //     }
+
+    // }
     main {
         width: 100%;
         height: 100vh;
-        color: white;
+        color: #fff;
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../resource/me.jpg') center center;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-
+    
         h4 {
-            font-size: 4rem;
-            font-weight: 300;
+            font-size: 2rem;
         }
-
+    
         h2 {
             font-size: 3.5rem;
-            margin: 1.5rem 0;
+            margin: 2rem 0;
             letter-spacing: 3px;
-            font-weight: 500;
-
-            span {
-                font-size: 3.75rem;
-                font-weight: 900;
+            font-family: 'Varela Round', sans-serif;
+    
+            /* 웹 폰트 추가 */
+            span::after {
+                content: "";
+                height: 40px;
+                width: 3px;
+                background-color: #fff;
+                display: inline-block;
+                animation: blink .7s ease-in-out infinite;
             }
         }
-
+    
         p {
             max-width: 600px;
             margin: 0 auto;
-            font-size: 1.35rem;
+            font-size: 1.25rem;
         }
-
-        .btn {
+    
+        .btn_main {
             display: flex;
-            justify-content: center;
-
-            .btn_ {
-                background-color: transparent;
+            max-width: 350px;
+            margin: 0 auto;
+            justify-content: space-around;
+            margin-top: 2rem;
+    
+            .go_to_project {
+    
                 border: 3px solid white;
                 border-radius: 20px;
-                padding: 1rem;
-                margin-top: 2.5rem;
+                padding: 1rem 2rem;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+    
+            }
+    
+    
+            .go_to_Contact {
+                border: 3px solid white;
+                border-radius: 20px;
+                padding: 1rem 2rem;
                 color: white;
                 font-weight: bold;
                 cursor: pointer;
             }
         }
-
-        .btn_:nth-child(1) {
-            margin-right: 2rem;
+    
+        .mouse {
+            border: none;
+            color: #fff;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: upDown 1s ease-in-out infinite;
+            cursor: pointer;
         }
-
-        .btn_:hover {
-            background-color: white;
-            color: black;
+    
+        @keyframes upDown {
+            0% {
+                bottom: 1rem;
+            }
+    
+            50% {
+                bottom: 1.5rem;
+            }
+    
+            100% {
+                bottom: 1rem;
+            }
         }
-
     }
-
     .about {
         width: 100%;
         height: 100vh;

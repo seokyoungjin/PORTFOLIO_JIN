@@ -45,10 +45,17 @@ a:visited {
 * {
     -webkit-text-size-adjust: none;
     box-sizing: border-box;
-    font-size: 1rem;
+    // font-size: 1rem;
     font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    word-break: break-all;
+    margin:0;
+    padding:0;
 }
-
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
 
 
 section:nth-child(2n) {
