@@ -66,6 +66,16 @@ section:nth-child(2n) {
   color: #fff;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  * {
+    -webkit-text-size-adjust: none;
+    box-sizing: none;
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+  }
+}
 html,
 body {
   overflow: scroll;
